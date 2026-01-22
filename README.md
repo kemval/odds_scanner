@@ -1,4 +1,5 @@
 # ⚽ Sports Betting Market Efficiency Analysis: R&D Methodology
+# Demo: https://plannatech-odds-scanner.streamlit.app/
 
 > **A professional demonstration of data science methodology, statistical validation, and market pricing theory in European soccer betting markets.**
 
