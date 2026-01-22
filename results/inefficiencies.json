@@ -1,0 +1,144 @@
+{
+  "home_bias": {
+    "bias_type": "home_bias",
+    "expected_wins": 1907.5663423372398,
+    "actual_wins": 1925,
+    "bias_percentage": -0.004019750441033017,
+    "direction": "undervalued",
+    "statistically_significant": false,
+    "p_value": 0.5938095297594106,
+    "sample_size": 4337
+  },
+  "favorite_longshot": {
+    "bias_type": "favorite_longshot",
+    "full_analysis": [
+      {
+        "Bucket": "Longshot",
+        "Avg_Implied_Prob": 0.21194770216810324,
+        "Count": 1066,
+        "Actual_Win_Rate": 0.1951219512195122,
+        "Outcome_Type": "H",
+        "Bias": 0.01682575094859104
+      },
+      {
+        "Bucket": "Underdog",
+        "Avg_Implied_Prob": 0.40076163899895345,
+        "Count": 1729,
+        "Actual_Win_Rate": 0.39618276460381724,
+        "Outcome_Type": "H",
+        "Bias": 0.004578874395136212
+      },
+      {
+        "Bucket": "Favorite",
+        "Avg_Implied_Prob": 0.595379812687577,
+        "Count": 1140,
+        "Actual_Win_Rate": 0.637719298245614,
+        "Outcome_Type": "H",
+        "Bias": -0.042339485558037016
+      },
+      {
+        "Bucket": "Heavy_Favorite",
+        "Avg_Implied_Prob": 0.7710951033159534,
+        "Count": 402,
+        "Actual_Win_Rate": 0.7587064676616916,
+        "Outcome_Type": "H",
+        "Bias": 0.012388635654261848
+      },
+      {
+        "Bucket": "Longshot",
+        "Avg_Implied_Prob": 0.24144317851752958,
+        "Count": 4045,
+        "Actual_Win_Rate": 0.2484548825710754,
+        "Outcome_Type": "D",
+        "Bias": -0.007011704053545814
+      },
+      {
+        "Bucket": "Underdog",
+        "Avg_Implied_Prob": 0.31289845375371805,
+        "Count": 292,
+        "Actual_Win_Rate": 0.3356164383561644,
+        "Outcome_Type": "D",
+        "Bias": -0.02271798460244634
+      },
+      {
+        "Bucket": "Longshot",
+        "Avg_Implied_Prob": 0.18734578425572065,
+        "Count": 2287,
+        "Actual_Win_Rate": 0.1565369479667687,
+        "Outcome_Type": "A",
+        "Bias": 0.030808836288951952
+      },
+      {
+        "Bucket": "Underdog",
+        "Avg_Implied_Prob": 0.38800416427548834,
+        "Count": 1417,
+        "Actual_Win_Rate": 0.3916725476358504,
+        "Outcome_Type": "A",
+        "Bias": -0.003668383360362071
+      },
+      {
+        "Bucket": "Favorite",
+        "Avg_Implied_Prob": 0.5828794582681258,
+        "Count": 548,
+        "Actual_Win_Rate": 0.6003649635036497,
+        "Outcome_Type": "A",
+        "Bias": -0.017485505235523835
+      },
+      {
+        "Bucket": "Heavy_Favorite",
+        "Avg_Implied_Prob": 0.7499999948368702,
+        "Count": 85,
+        "Actual_Win_Rate": 0.788235294117647,
+        "Outcome_Type": "A",
+        "Bias": -0.03823529928077685
+      }
+    ],
+    "heavy_favorite_bias": -0.0129233318132575,
+    "longshot_bias": 0.013540961061332393,
+    "interpretation": "No significant favorite-longshot bias"
+  },
+  "draw_bias": {
+    "bias_type": "draw_bias",
+    "overall_bias": -0.00806917094777663,
+    "direction": "undervalued",
+    "by_league": [
+      {
+        "League": "D1",
+        "Implied_Draw_Prob": 0.2324151108256454,
+        "Actual_Draw_Rate": 0.2494553376906318,
+        "Matches": 918,
+        "Bias": -0.017040226864986407
+      },
+      {
+        "League": "E0",
+        "Implied_Draw_Prob": 0.23585851397292248,
+        "Actual_Draw_Rate": 0.22543859649122808,
+        "Matches": 1140,
+        "Bias": 0.010419917481694407
+      },
+      {
+        "League": "I1",
+        "Implied_Draw_Prob": 0.2509373678531153,
+        "Actual_Draw_Rate": 0.2721685689201054,
+        "Matches": 1139,
+        "Bias": -0.021231201066990057
+      },
+      {
+        "League": "SP1",
+        "Implied_Draw_Prob": 0.26311453153308806,
+        "Actual_Draw_Rate": 0.2692982456140351,
+        "Matches": 1140,
+        "Bias": -0.006183714080947034
+      }
+    ],
+    "strongest_bias_league": "I1"
+  },
+  "close_match": {
+    "bias_type": "close_match",
+    "sample_size": 1262,
+    "implied_home_prob": 0.3623806997139563,
+    "actual_home_rate": 0.35578446909667194,
+    "bias": 0.006596230617284371,
+    "interpretation": "No clear bias"
+  }
+}

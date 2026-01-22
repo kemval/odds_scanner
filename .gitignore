@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+sports_analytics/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data (if large)
+data/raw/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
